@@ -1,0 +1,24 @@
+spring:
+  application:
+   name: LedgerOne
+
+  datasource:
+    url: jdbc:psql://localhost:5432/expenseFlow
+    username: root
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc:
+          time_zone: UTC
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+logging:
+  level:
+    org.hibernate.sql: debug

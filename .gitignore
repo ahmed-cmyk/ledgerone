@@ -1,0 +1,62 @@
+### =========================
+### Java / Kotlin / JVM
+### =========================
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+### =========================
+### Gradle
+### =========================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+### =========================
+### IntelliJ IDEA
+### =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### =========================
+### OS / Editor noise
+### =========================
+.DS_Store
+.DS_Store?
+Thumbs.db
+*.swp
+*.swo
+*~
+
+### =========================
+### Spring Boot
+### =========================
+application-*.yml
+application-*.yaml
+application-*.properties
+
+### =========================
+### Flyway
+### =========================
+flyway.conf
+flyway.toml
+flyway*.log
+
+### =========================
+### Environment / Secrets
+### =========================
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+### =========================
+### Docker (if you add it later)
+### =========================
+docker-compose.override.yml
