@@ -16,7 +16,7 @@ import java.time.Instant
 
 @Entity
 @Table(name = "tenants")
-data class Tenant(
+class Tenant(
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     var id: UUID? = null,

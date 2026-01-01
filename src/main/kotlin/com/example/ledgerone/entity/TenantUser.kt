@@ -21,7 +21,7 @@ import jakarta.persistence.UniqueConstraint
         UniqueConstraint(columnNames = ["tenant_id", "user_id"])
     ]
 )
-data class TenantUser(
+class TenantUser(
     @Id
     @GeneratedValue(GenerationType.IDENTITY)
     val id: Long,
