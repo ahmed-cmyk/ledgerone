@@ -14,7 +14,7 @@ import jakarta.persistence.Table
 import java.time.LocalDate
 
 @Entity
-@Table(name = "budget")
+@Table(name = "budgets")
 class Budget (
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

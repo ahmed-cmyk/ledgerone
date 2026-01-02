@@ -13,7 +13,7 @@ import java.math.BigDecimal
 import java.time.ZonedDateTime
 
 @Entity
-@Table(name = "expense")
+@Table(name = "expenses")
 class Expense (
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
