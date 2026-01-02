@@ -11,8 +11,7 @@ import jakarta.persistence.JoinColumn
 import jakarta.persistence.ManyToOne
 import jakarta.persistence.OneToOne
 import jakarta.persistence.Table
-import java.time.Period
-import java.time.ZonedDateTime
+import java.time.LocalDate
 
 @Entity
 @Table(name = "budget")
@@ -33,8 +32,8 @@ class Budget (
     val monthlyLimit: Double,
 
     @Column(name = "period_start", nullable = false)
-    val periodStart: ZonedDateTime,
+    val periodStart: LocalDate,
 
     @Column(name = "period_end", nullable = false)
-    val periodEnd: ZonedDateTime,
+    val periodEnd: LocalDate,
 )
