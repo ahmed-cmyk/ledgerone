@@ -1,7 +1,7 @@
 package com.example.ledgerone.repository
 
-import com.example.ledgerone.entity.Tenant
+import com.example.ledgerone.entity.Expense
 import org.springframework.data.jpa.repository.JpaRepository
 
-interface TenantRepository: JpaRepository<Tenant, Long> {
+interface ExpenseRepository: JpaRepository<Expense, Long> {
 }
