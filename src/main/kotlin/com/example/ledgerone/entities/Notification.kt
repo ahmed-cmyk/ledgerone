@@ -1,4 +1,4 @@
-package com.example.ledgerone.entity
+package com.example.ledgerone.entities
 
 import jakarta.persistence.Column
 import jakarta.persistence.Entity

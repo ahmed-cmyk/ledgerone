@@ -1,4 +1,4 @@
-package com.example.ledgerone.enum
+package com.example.ledgerone.enums
 
 enum class TenantStatus {
     ACTIVE, SUSPENDED

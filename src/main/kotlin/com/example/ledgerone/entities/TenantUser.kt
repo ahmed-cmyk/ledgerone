@@ -1,6 +1,6 @@
-package com.example.ledgerone.entity
+package com.example.ledgerone.entities
 
-import com.example.ledgerone.enum.TenantRole
+import com.example.ledgerone.enums.TenantRole
 import jakarta.persistence.Column
 import jakarta.persistence.Entity
 import jakarta.persistence.EnumType
