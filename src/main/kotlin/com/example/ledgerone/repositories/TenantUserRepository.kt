@@ -4,7 +4,7 @@ import com.example.ledgerone.entities.Tenant
 import com.example.ledgerone.entities.TenantUser
 import org.springframework.data.jpa.repository.JpaRepository
 
-interface TenantUserRepository: JpaRepository<Tenant, Long> {
+interface TenantUserRepository: JpaRepository<TenantUser, Long> {
 
     fun existsByTenantIdAndUserId(tenantId: Long, userId: Long): Boolean
 
