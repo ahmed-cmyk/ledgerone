@@ -18,8 +18,8 @@ import java.time.Instant
 @Table(name = "tenants")
 class Tenant(
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    var id: UUID? = null,
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    var id: Long? = null,
 
     @Column(nullable = false)
     var name: String? = null,
