@@ -18,7 +18,7 @@ class UserDetailsServiceImpl(
 
         return UserPrincipal(
             userId = user.id,
-            email = user.email,
+            username = user.username,
             password = user.passwordHash,
             authorities = listOf(SimpleGrantedAuthority("ROLE_USER"))
         )

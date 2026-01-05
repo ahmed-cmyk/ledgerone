@@ -5,12 +5,12 @@ import org.springframework.security.core.userdetails.UserDetails
 
 class UserPrincipal(
     val userId: Long,
-    val email: String,
+    val username: String,
     private val password: String,
     private val authorities: Collection<GrantedAuthority>
 ): UserDetails {
 
-    override fun getUsername(): String = email
+    override fun getUsername(): String = username
 
     override fun getPassword(): String = password
 
